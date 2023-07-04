@@ -1,0 +1,39 @@
+
+.PriceTag {
+    background-color: green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 2%;
+    font-weight: 600;
+    cursor: default;
+}
+
+.container-exp{
+    margin-top: 4em;
+    text-align: center;
+}
+
+.jelajah {
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    font-weight: 600;
+    padding: .5% 1%;
+    border-radius: 12px;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.305) 0 0 18px;
+}
+
+.menu {
+    padding: 4%;
+}
+
+.signup {
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    font-weight: 600;
+    padding: 20% 40%;
+    border-radius: 5px; 
+}

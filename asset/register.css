@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Lavishly Yours:300,400,500,600,700,800,900&effect=neon&display=swap');
+
+* {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+ body {
+    display: flex;
+}
+
+.container {
+    justify-items: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.kiri {
+    background-image: url('https://img.freepik.com/free-photo/composition-black-friday-with-cart_23-2147696781.jpg?w=740&t=st=1687870741~exp=1687871341~hmac=3eb16ca3ac7a3083536620b7fecd28f07320bfca7f54c40da60d5a125b5a86e2');
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+}
+
+.kiri h1 a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lavishly Yours';
+    font-weight: 400;
+    text-shadow: silver 0 0 20px;
+    font-size: 2.8em;
+}
+
+.wb {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.kiri p{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-bottom: 1em;
+}
+
+.tombol {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000a1;
+    border: #fff solid 1px;
+    border-radius: 25px;
+    padding: .5em 3em;
+}
+
+.kanan {
+    background-image: url('https://img.freepik.com/free-photo/gray-concrete-wall_53876-88973.jpg?w=1060&t=st=1687872507~exp=1687873107~hmac=48921f81d2ac249cdffaded8bf1f27acfb81de80cbbb27f7862c976fc97102c1');
+    background-size: cover;
+    width: 60%;
+    height: 100vh;
+}
+
+.kanan .container h1 {
+    font-weight: 800;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+form input{
+    border-radius: 10px;
+    border: solid 1px #000;
+    padding: 6px 3px;
+    margin: 5px;
+    width: 40%;
+    font-weight: 400;
+}
+
+.signup {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #121212;
+    border: #fff solid 1px;
+    border-radius: 25px;
+    padding: .5em 3em;
+}
